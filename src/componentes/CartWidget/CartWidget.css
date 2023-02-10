@@ -1,0 +1,13 @@
+.imagenCarrito{
+   max-width: 80px;
+   max-height: 100px;
+}
+.carritoImagen{
+   
+   float: left;
+   
+  
+}
+p{
+    font-weight: 700;
+}

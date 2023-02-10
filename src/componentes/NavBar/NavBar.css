@@ -1,0 +1,14 @@
+
+    .MuiPaper-root {
+          min-height: 100%;
+          background-image: linear-gradient(to left, #fbcabb, #f9b0c3, #e3abce, #ceb6d9, #a2c8ec);
+          font-size: larger; }    
+ 
+    a{
+      text-decoration: none;
+      color:white;
+     
+    } 
+    a:hover{
+      color:white;
+    }     
