@@ -43,8 +43,7 @@ import {db} from '../../services/firebase';
 
   return (
     <div className="productos_container">
-      <button className='filtros'><Link to={'/Productos/barato'}>Baratos</Link></button>
-      <button className='filtros'><Link to={'/Productos/caro'}>Caros</Link></button>
+     
       <ItemList items={productos} />
     </div>
   );

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link, useParams} from 'react-router-dom'
+import {  useParams} from 'react-router-dom'
 //Estilos
 import './ItemDetailContainer.css'
 import { getDoc, doc} from 'firebase/firestore';
@@ -20,12 +20,12 @@ const ItemDetailContainer = () => {//Funcion constructora
     const { productosId } = useParams();
     
       useEffect(() => {
-        const getData=async()=>{
+        const getData= async()=>{
           const queryRef= doc(db, 'listaDeProductos', productosId);
           const response = await getDoc(queryRef);
           const newDoc={
             id:response.id,
-            ...response.data()
+            ...response.data(),
           }
           console.log(newDoc);
           setItem(newDoc)
@@ -37,8 +37,6 @@ const ItemDetailContainer = () => {//Funcion constructora
         <div className='ItemDetail-box'>
          
              <ItemDetail item={item}/>
-            
-         
             </div>
             
       

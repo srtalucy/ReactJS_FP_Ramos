@@ -7,9 +7,8 @@ const ItemDetail = ({item}) => {//Funcion constructora
 
    
     return (
-        
+
         <article className='itemDetail-producto'>
-            <p>HOLA</p>
             <h1>DETALLE DEL PRODUCTO SELECCIONADO</h1>
             <Card className='card-separated'>
                 <Card.Header as="h5">{item.id}</Card.Header>

@@ -137,7 +137,8 @@ function ResponsiveAppBar() {
         </Toolbar>
         
       </Container>
-    
+      <button className='filtros'><Link to={'/Productos/barato'}>Baratos</Link></button>
+      <button className='filtros'><Link to={'/Productos/caro'}>Caros</Link></button>
     </AppBar>
  
   );
