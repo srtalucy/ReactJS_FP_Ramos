@@ -1,5 +1,5 @@
 import './Items.css';
-import AddCartBtn from '../AddCartBtn/AddCartBtn';
+
 import { Link } from 'react-router-dom';
 
 const Items = ({item})=>{

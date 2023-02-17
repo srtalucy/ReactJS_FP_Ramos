@@ -3,7 +3,7 @@ import './ItemDetail.css';
 import Card from 'react-bootstrap/Card';
 import ItemCount from '../ItemCount/ItemCount'
 import { Link } from "react-router-dom";
-import { useCartContext, CartProvider, CartContext } from "../../context/CartContext";
+import { useCartContext,  CartContext } from "../../context/CartContext";
 import { useState } from "react";
 
 
@@ -11,7 +11,7 @@ import { useState } from "react";
 const ItemDetail = ({item}) => {//Funcion constructora
 
    const {addProduct} =useCartContext(CartContext);
-   const [quantity, setQuantity] = useState(0);
+   const [ setQuantity] = useState(0);
 
    const onAdd= (contador)=>{
     addProduct(item, contador);

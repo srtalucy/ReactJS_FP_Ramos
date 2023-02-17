@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap";
 
 export const CartItem = ({ item }) => {
   const { removeProduct } = useContext(CartContext);
-    const total=0;
+  
   return (
     <div className="cart-item-container">
       

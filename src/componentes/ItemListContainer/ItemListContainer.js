@@ -1,8 +1,6 @@
 
 import '../ItemListContainer/ItemListContainer.css';
-import { Link } from 'react-router-dom';
-import AddCartBtn from '../AddCartBtn/AddCartBtn';
-import Items from '../Items/Items';
+
 import ItemList from '../ItemList/ItemList';
 import React from "react";
 
