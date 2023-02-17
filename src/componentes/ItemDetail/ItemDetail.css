@@ -5,3 +5,7 @@
 .volverP:hover{
     color:black;
 }
+.card-separated{
+    display: flex;
+    justify-content: space-around;
+}

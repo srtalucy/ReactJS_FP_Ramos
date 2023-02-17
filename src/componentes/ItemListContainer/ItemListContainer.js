@@ -17,6 +17,8 @@ import {db} from '../../services/firebase';
  export default function ItemListContainer() {
   const [productos, setProductos] = useState([]);
   const { precioProducto } = useParams();
+  console.log(precioProducto);
+    console.log(productos);
   useEffect(() => {
     const getData = async () => {
       const queryRef = precioProducto ? query(collection(db, 'listaDeProductos'), where('estado', '==', precioProducto)) : collection(db, 'listaDeProductos');

@@ -1,0 +1,14 @@
+.contador{
+    display: flex;
+    justify-content: space-around;
+}
+.buttonContador{
+    width: 25px;
+    height: 25px;
+}
+.restar{
+    background-color: red;
+}
+.sumar{
+    background-color: greenyellow;
+}
