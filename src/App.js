@@ -16,7 +16,8 @@ function App() {
         <BrowserRouter>
           <NavBar />
           <Routes>
-            <Route path="/ReactJS_FP_Ramos/" element={<ItemListContainer />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/ReactJS_FP_Ramos" element={<ItemListContainer/>}></Route>
             <Route path="/Home" element={<Home />} />
             <Route path="/Contacto" element={<Contacto/>}></Route>
             <Route
