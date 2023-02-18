@@ -52,6 +52,7 @@ const CartProvider=({children})=>{
     const clearItemsCart=()=>{
         setItemsCart([])
     }
+   
     //Render de cart provider
     return(
        <CartContext.Provider value={{itemsCart, addProduct, getTotalProducts, removeProduct, clearItemsCart, finalTotalPrice}}>
