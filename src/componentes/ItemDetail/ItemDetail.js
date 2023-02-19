@@ -11,7 +11,7 @@ import { useState } from "react";
 const ItemDetail = ({item}) => {//Funcion constructora
 
    const {addProduct} =useCartContext(CartContext);
-   const [ setQuantity] = useState(0);
+   const [quantity, setQuantity] = useState(0);
 
    const onAdd= (contador)=>{
     addProduct(item, contador);
